@@ -1,0 +1,10 @@
+prompts:
+  - "Solve this math problem step-by-step: {{question}}"
+
+providers:
+  - id: google:gemini-3.6-flash
+
+evaluateOptions:
+  maxConcurrency: 100   # Run up to 10 test cases in parallel
+
+tests: huggingface://datasets/openai/gsm8k?config=main&split=test
