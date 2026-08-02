@@ -1,3 +1,9 @@
+> ⚠️ **Warning**
+>
+> `promptfoo` can only run stateless benchmarking.
+> It cannot run agentic benchmark like `Terminal-Bench`.
+
+
 Default benchmark tool: `promptfoo`
 
 Directory naming convention: `${DATASET}_${MODEL}` \
